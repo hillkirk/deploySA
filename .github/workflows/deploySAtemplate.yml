@@ -33,4 +33,4 @@ jobs:
         with:
           resourceGroupName: ${{ env.ResourceGroupName }}
           template: ./newsaaccount.json
-          parameters: storageName=aoh23140df
+          parameters: storageName=aoh23140df storageSKU=Standard_LRS
